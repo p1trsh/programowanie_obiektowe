@@ -1,0 +1,37 @@
+A.
+- numer rejestracyjny
+- model
+- kolor
+- rocznik
+- przebieg
+- cena wypozyczenia (np za 1 dzien)
+- dostepnosc
+
+B.
+- model
+- kolor
+- predkosc aktualna
+- predkosc maksymalna
+- koszt (jesli w grze zbiera sie jakas walute za ktora sie je odblokowywuje)
+- czy posiadany/odblokowany (jeśli koszt to też)
+
+C.
+- model
+- kolor
+- rocznik
+- numer rejestracyjny
+- przebieg
+- model silnika
+- opony
+itp. itd. wszelkie inne części
+- historia napraw
+- posiadacz
+
+
+nie istnieje jedna poprawna klasa 'Samochod' pasujaca do kazdego programu
+poniewaz kazdy system potrzebuje innych informacji aby wykonywac swoj cel
+zrobienie klasy uniwersalnej jest po pierwsze niepotrzebne
+poniewaz zawierało by to za dużo niepotrzebnych zmiennych,
+a kod powinien być napisany optymalnie, aby mógł działać jak najszybciej
+po drugie byłoby to niemożliwe, nie jesteśmy w stanie przewidzieć wszystkich
+potencjalnych danych i byłoby ich o wiele za dużo.

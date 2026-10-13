@@ -1,0 +1,47 @@
+Klasa: Biblioteka
+
+Stan:
+- lista ksiazek
+- lista czytelnikow
+- lista zarejestrowanych wypozyczen
+
+Odpowiedzialności:
+- zarzadzanie dostepnymi ksiazkami oraz uzytkownikami
+- mozliwosc wypozyczenia ksiazki przez czytelnika
+
+Klasa: Książka
+
+Stan:
+- tytuł
+- autor
+- ISBN
+- rok wydania
+
+Odpowiedzialności:
+- udostepnianie informacji o ksiazce
+
+Klasa: Czytelnik
+
+Stan:
+- Imie
+- Nazwisko
+- Numer karty bibliotecznej
+
+Odpowiedzialności:
+- Przechowywanie danych uzytkownika
+
+Klasa: Wypozyczenie
+
+Stan:
+- wypozyczona ksiazka
+- czytelnik wypozyczajacy
+- data wypozyczenia
+- termin zwrotu
+
+Odpowiedzialności:
+- przechowywanie informacji o wypozyczeniu
+
+
+zaleznosci:
+biblioteka a ksiazka, czytelnik, wypozyczenie
+wypozyczenie a ksiazka, czytelnik

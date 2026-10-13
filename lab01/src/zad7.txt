@@ -1,0 +1,54 @@
+sklep internetowy:
+
+Klasa: sklep
+
+Stan:
+- lista produktow
+- lista klientow
+- lista zamowien
+
+Odpowiedzialności:
+- zarzadzanie dostepnymi produktami i klientami
+- mozliwosc zlozenia zamowienia
+
+Klasa: produkt
+
+Stan:
+- nazwa produktu
+- opis produktu
+- zdjecie produktu
+- cena
+- ilosc dostepnych sztuk
+
+Odpowiedzialności:
+- udostepnienie informacji o produkcie
+
+Klasa: klient
+
+Stan:
+- imie
+- nazwisko
+- adres email
+- numer telefonu
+
+Odpowiedzialności:
+- przechowywanie informacji o kliencie
+
+Klasa: zamowienie
+
+Stan:
+- nr zamowienia
+- zamowione produkty
+- data zamowienia
+- adres wysyłki
+- laczna kwota zamowienia
+
+Odpowiedzialności:
+- przechowywanie informacji o zamowieniach
+
+
+1. sklep musi miec informacji o produktach, klientach i zamowieniach
+zamowienie musi miec informacje o produktach i o kliencie
+2. nie
+3. potencjalne punkty lojalnosciowe, wybór różnych opcji dostawy, rodzaje (np. rozmiary, kolory tego samego produktu), kategorie produktów
+4. ze wzgledu na brak potrzeby komplikacji czysto teorytycznego przykladu
