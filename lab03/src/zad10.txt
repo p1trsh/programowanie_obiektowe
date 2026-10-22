@@ -1,0 +1,7 @@
+1. instancyjny
+2. statyczny
+3. statyczny
+4. instancyjny
+5. statyczny
+6. instancyjny
+7. statyczny
