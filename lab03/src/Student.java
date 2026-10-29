@@ -11,6 +11,7 @@ public class Student {
         this.albumNumber = numberOfStudents;
     }
 
+
     public void showStudent(){
         System.out.println(firstName + " " + lastName);
         System.out.println(albumNumber);
